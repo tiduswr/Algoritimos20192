@@ -1,4 +1,4 @@
-print('SIMULADOR DE COMPRA DE COMBUSTIVEL}')
+print('SIMULADOR DE COMPRA DE COMBUSTIVEL')
 ValorGas = float(input('Insira o valor do Combustivel em "R$": '))
 ValorPago = float(input('Quanto em "R$" você deseja abastecer? '))
 ValorFinal = ValorPago / ValorGas
