@@ -1,0 +1,5 @@
+print('SAIBA SEU REAJUSTE SALARIAL!!')
+SalAtu = float(input('Informe seu salario mensal: R$ '))
+PercReaj = float(input('Informe o Percentual de reajuste: % '))
+NewSal = SalAtu + (SalAtu * (PercReaj/100))
+print('Seu salário atual é de {}R$'.format(NewSal))
