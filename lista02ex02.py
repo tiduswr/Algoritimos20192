@@ -1,4 +1,4 @@
-print('Verificador de Vogal ou consoante!')
+print('Verificador de Vogal e Consoante!')
 cond = str(input('Deigite uma letra: '))
 if cond == 'a' or cond == 'e' or cond == 'i' or cond == 'o' or cond == 'u' or cond == 'A' or cond == 'E' or cond == 'I' or cond == 'O' or cond == 'U':
     print('A letra digitada é uma vogal! ')
