@@ -5,7 +5,7 @@ c = float(input('Digite o valor de "c":'))
 print('')
 if a == 0:
 	print('Se "a" for igual a zero, \na equação se torna de primeiro grau! ')
-if a > 0:
+if a > 0 or a < 0:
 	bq = b ** 2
 	delta = bq - 1*(4 * a * c)
 	raizdelta = delta ** (1/2)
