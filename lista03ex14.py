@@ -1,4 +1,4 @@
-print('Maior e menor entre 15 numeros')
+print('Maior e menor entre N numeros')
 qt = int(input('Digite quantos numeros você deseja testar: '))
 valor = float(input('Digite um valor: '))
 menor = valor
