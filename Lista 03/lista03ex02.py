@@ -1,0 +1,12 @@
+print('=' * 50)
+print('{:-^50}'.format('SKY NET'))
+print('=' * 50)
+log = str(input('Login: '))
+key = str(input('Senha: '))
+if key == log:
+	print('Sua senha não pode ser igual ao seu login, tente de novo!')
+	key = str(input('Senha: '))
+print('\nSeja bem vindo {}!\n'.format(log))
+print('=' * 50)
+print('{:-^50}'.format('v1.0'))
+print('=' * 50)
