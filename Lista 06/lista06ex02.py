@@ -1,6 +1,6 @@
 #Nomeando Variaveis:
 matriz = []
-o = 2
+o = 5
 local = ''
 japrint = False
 plural = 0
