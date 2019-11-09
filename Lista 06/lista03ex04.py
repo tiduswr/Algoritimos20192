@@ -4,9 +4,9 @@ matriz = []
 for i in range(ordem):
     matriz.append([0] * ordem)
 
-print('=' * 51)
-print('{:^51}'.format('Matriz 10 x 10! '))
-print('=' * 51)
+print('=' * 102)
+print('{:^102}'.format('Matriz 10 x 10! '))
+print('=' * 102)
 
 for i in range(ordem):
     for j in range(ordem):
@@ -22,4 +22,4 @@ for i in range(ordem):
     for j in range(ordem):
         print('{:^7.0f}'.format(matriz[i][j]), end = ' | ')
     print()
-print('=' * 51)
+print('=' * 102)
