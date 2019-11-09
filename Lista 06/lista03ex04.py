@@ -1,4 +1,4 @@
-ordem = 5
+ordem = 10
 matriz = []
 
 for i in range(ordem):
