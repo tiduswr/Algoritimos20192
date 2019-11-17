@@ -36,8 +36,6 @@ print()
 
 criaVet(int_v, tamanho, int)
 
-x = '12'
-
 print()
 cabecalho('Resultados')
 
