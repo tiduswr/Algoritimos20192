@@ -61,6 +61,21 @@ def print_mat(matriz):
             if (j+1) == len(matriz[1]):
                 print('|', end = ' ')
         print()
+
+def tipo_dados():
+    print('*Qual o tipo de dado que você irár registrar?')
+    print('1) Inteiros\n2) Decimal\n3) Texto\n')
+    dados = int(input('Digite o numero correspondente a opção: '))
+    while dados != 1 and dados != 2 and dados != 3:
+        dados = int(input('Digite o numero correspondente a opção: '))
+    print()
+    if dados == 1:
+        dados = int
+    elif dados == 2:
+        dados = float
+    else:
+        dados = str
+    return dados
 #----------------------------------------------------------------------------------------
 import time
 matriz = []
@@ -70,18 +85,7 @@ cabecalho('Trocar valor de duas Matrizes de ordem igual', 50)
 print('ATENÇÃO!! Esse Programa só organiza as matrizes\ncom até 999 registros!!\n')
 ordem = int(input('Digite a ordem para as Matrizes Quadradas: '))
 print()
-print('*Qual o tipo de dado que você irár registrar?')
-print('1) Inteiros\n2) Decimal\n3) Texto\n')
-dados = int(input('Digite o numero correspondente a opção: '))
-while dados != 1 and dados != 2 and dados != 3:
-    dados = int(input('Digite o numero correspondente a opção: '))
-
-if dados == 1:
-    dados = int
-elif dados == 2:
-    dados = float
-else:
-    dados = str
+dados = tipo_dados()
 
 cabecalho('Solicitação de Valores Matriz 01', 50)
 cria_mat(matriz, ordem, ordem)
